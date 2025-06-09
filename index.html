@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luan Queiroz">
+    <meta name="keywords" content="portfólio, desenvolvedor, web, fullstack, HTML, CSS, JavaScript, Luan Queiroz">
+    <link rel="icon" href="./assets/img/favicon.svg">
+    <title>Portfólio do Luan</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+
+        <div id="header_content">
+            <!-- Titulo do Cabeçalho -->
+            <div id="titulo">
+                <a href="#">Universo</a>
+            </div>
+
+            <!-- Menu -->
+            <div id="menu">
+
+                <!-- Barra de navegação -->
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção principal da página -->
+    <main>
+        <!-- Seção home -->
+        <section id="home">
+
+            <article id="home_texto">
+
+                <h4>Bem vindo ao Novo Universo</h4>
+                <h1>Mundos diferentes para pessoas diferentes</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis corrupti deserunt odit, soluta impedit accusamus alias dicta quam illo velit recusandae repellat dolor optio pariatur cumque quisquam facilis. Consequuntur, ipsam!</p>
+
+                <a href="https://github.com/Luuh03" target="_blank">Explorar</a>
+
+            </article>
+            <article id="home_imagem">
+                <img src="./assets/img/astronauta.svg" alt="Capacete animado do astronalta">
+            </article>
+        </section>
+
+        <!-- Seção sobre -->
+        <section id="about">
+            <img src="./assets/img/user_01.svg" alt="Foto do perfil do Github">
+
+            <article id="about_texto">
+                <h1>Sobre mim</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptates earum aliquid explicabo quo alias odit ad iusto hic repudiandae quasi quibusdam numquam distinctio ullam reprehenderit, necessitatibus dolorem quas rerum?</p>
+            
+                <div id="about_github">
+                    <a href="https://github.com/Luuh03">Github</a>
+                    <p>10 Seguidores</p>
+                    <p>28 Repositórios</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Seção de contatos -->
+        <section id="contact">
+            <h4>Contate-me</h4>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vero sequi reprehenderit ut atque provident magni expedita illo, officiis architecto, quibusdam voluptas numquam debitis explicabo consectetur placeat quas illum. Dignissimos?</p>
+
+            <div id="icones_redes_sociais">
+                <a href="https://www.linkedin.com/in/luan-queiroz/" target="_blank">
+                    <img src="./assets/img/linkedin.svg" alt="Icone do LinkedIn">
+                </a>
+
+                <a href="https://github.com/Luuh03" target="_blank">
+                    <img src="./assets/img/github.svg" alt="Icone do Github">
+                </a>
+
+                <a href="https://www.instagram.com/luanzitoh2/" target="_blank">
+                    <img src="./assets/img/instagram.svg" alt="Icone do Instagram">
+                </a>
+            </div>
+        </section>
+
+        <form action="" method="post">
+            <label for="nome">Nome</label>
+            <input 
+                id="nome"
+                type="text"
+                name="nome"
+                placeholder="Digite o seu nome"
+            >
+
+            <span id="txtNome"></span>
+
+            <label for="email">E-mail</label>
+            <input 
+                id="email"
+                type="text"
+                name="email"
+                placeholder="Digite um endereço de e-mail válido"
+            >
+
+            <span id="txtEmail"></span>
+
+            <label for="assunto">Assunto</label>
+            <input 
+                id="assunto"
+                type="text"
+                name="assunto"
+                placeholder="Digite o assunto"
+            >
+
+            <span id="txtAssunto"></span>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea 
+                id="mensagem"
+                name="mensagem"
+                placeholder="Digite a sua mensagem"
+            >
+            </textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        Feito com ❤️ por Luan Queiroz - 2025
+    </footer>
+</body>
+
+</html>
