@@ -293,6 +293,33 @@ footer {
     filter: opacity(0.9);
 }
 
+/* Home - Página Sucess */
+.home_container_sucess {
+    height: calc(100vh - 12.56rem);
+    max-width: 1120px;
+    margin: 1rem auto;
+    padding: 0 1rem;
+}
+
+.home_container_sucess .botao {
+    width: 50%;
+}
+
+#home_sucess {
+    width: 50vw;
+    flex-direction: column;
+}
+
+#home_sucess h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#home_sucess h4 {
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+
 /* Responsividade Mobile */
 
 @media screen and (max-width: 960px) {
