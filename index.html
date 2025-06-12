@@ -55,9 +55,8 @@
 
                 <h4>Bem vindo ao Novo Universo</h4>
                 <h1>Mundos diferentes para pessoas diferentes</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis corrupti deserunt odit, soluta
-                    impedit accusamus alias dicta quam illo velit recusandae repellat dolor optio pariatur cumque
-                    quisquam facilis. Consequuntur, ipsam!</p>
+                <p>Aqui você pode encontrar um pouco mais sobre mim, como acessar as minhas redes sociais onde mostro meus projetos e 
+                    formas de me contatar!</p>
 
                 <a class="botao" href="https://github.com/Luuh03" target="_blank">Explorar</a>
 
@@ -68,23 +67,7 @@
         </section>
 
         <!-- Seção sobre -->
-        <section id="about" class="flex about_container">
-            <img src="./assets/img/user_01.svg" alt="Foto do perfil do Github">
-
-            <article id="about_texto" class="about_content">
-                <h1>Sobre mim</h1>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptates earum aliquid explicabo quo
-                    alias odit ad iusto hic repudiandae quasi quibusdam numquam distinctio ullam reprehenderit,
-                    necessitatibus dolorem quas rerum?</p>
-
-                <div id="about_github" class="flex about_github_content">
-                    <a class="botao" href="https://github.com/Luuh03">Github</a>
-                    <p>10 Seguidores</p>
-                    <p>28 Repositórios</p>
-                </div>
-            </article>
-        </section>
+        <section id="about" class="flex about_container"></section>
 
         <!-- Seção de contatos -->
         <section id="contact" class="flex contact_container">
@@ -92,9 +75,10 @@
             <article id="redes_sociais" class="contact_content">
                 <h4>Contate-me</h4>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vero sequi reprehenderit ut atque
-                    provident magni expedita illo, officiis architecto, quibusdam voluptas numquam debitis explicabo
-                    consectetur placeat quas illum. Dignissimos?</p>
+                <p>Se quiser saber um pouco mais sobre mim, meus projetos e testar alguns deles, eu gostaria de te convidar
+                    para entrar em contato comigo através minhas redes sociais, onde conto sobre minhas experiências e projetos que estou 
+                    trabalhando, ou me mandar um e-mail.
+                </p>
 
                 <div id="icones_redes_sociais" class="social_container">
                     <a class="social_icon" href="https://www.linkedin.com/in/luan-queiroz/" target="_blank">
@@ -111,7 +95,11 @@
                 </div>
             </article>
 
-            <form action="" method="post">
+            <form id="form" action="https://formsubmit.co/788c7d9c7679c3c605414d1ec957c0bb" method="post">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucess.html">
+                <input type="hidden" name="_captcha" value="false">
+
                 <label for="nome">Nome</label>
                 <input id="nome" type="text" name="nome" placeholder="Digite o seu nome">
 
@@ -140,6 +128,10 @@
     <footer>
         Feito com ❤️ por Luan Queiroz - 2025
     </footer>
+
+    <!-- Script JavaScript-->
+    <script src="./assets/js/script.js"></script>
+
 </body>
 
 </html>
