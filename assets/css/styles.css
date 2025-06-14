@@ -388,3 +388,21 @@ footer {
         padding: 1rem;
     }
 }
+
+@media screen and (max-width: 405px) {
+    .about_content {
+        max-width: 18.75rem;
+    }
+
+    .about_github_content {
+        flex-direction: column;
+    }
+
+    #titulo {
+        display: none;
+    }
+
+    .contact_content p {
+        font-size: 1rem;
+    }
+}
